@@ -31,6 +31,7 @@ roslaunch nao_moveit_config moveit_planner.launch
 ```
 
 #### Available controllers
+All joints are covered, comparing with information provided on [NAO specs](http://doc.aldebaran.com/2-8/family/nao_technical/lola/actuator_sensor_names.html).
 - Head
 - Left/Right Arm
 - Left/Right Foot
@@ -40,7 +41,6 @@ roslaunch nao_moveit_config moveit_planner.launch
 - FSR Left/Right Foot
 - Camera top/bottom
 - Sonar Left/Right
-- Comparing with information provided [here](http://doc.aldebaran.com/2-8/family/nao_technical/lola/actuator_sensor_names.html), I think all joints are covered
 
 
 #### Modules
