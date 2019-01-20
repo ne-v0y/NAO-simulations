@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Version=0.9.4
+Name=Uninstall NAO meshes
+Comment=Uninstall
+Icon=
+Exec=/home/noni/NAO-simulations/catkin_ws/src/nao_meshes/uninstall
+Terminal=false
+Path=/home/noni/NAO-simulations/catkin_ws/src/nao_meshes
