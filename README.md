@@ -45,11 +45,11 @@ All joints are covered, comparing with information provided on [NAO specs](http:
 
 #### Modules
 Submodules
-- [NAO robot](https://github.com/ros-naoqi/nao_robot)
-- [NAO extras](https://github.com/ros-naoqi/nao_extras)
-- [NAO virtual](https://github.com/ros-naoqi/nao_virtual)
-- [NAOqi_bridge_msg](https://github.com/ros-naoqi/naoqi_bridge_msgs)
-- [NAO moveit config](https://github.com/ros-naoqi/nao_moveit_config)
+- [nao_robot](https://github.com/ros-naoqi/nao_robot)
+- [nao_extras](https://github.com/ros-naoqi/nao_extras)
+- [nao_virtual](https://github.com/ros-naoqi/nao_virtual)
+- [naoqi_bridge_msg](https://github.com/ros-naoqi/naoqi_bridge_msgs)
+- [nao_moveit_config](https://github.com/ros-naoqi/nao_moveit_config)
 
 Created packages
 - [nao_meshes](https://github.com/ros-naoqi/nao_meshes/issues/6), with NAO V6 urdf. 
