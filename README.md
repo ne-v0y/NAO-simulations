@@ -52,5 +52,5 @@ Submodules
 - [nao_moveit_config](https://github.com/ros-naoqi/nao_moveit_config)
 
 Created packages
-- [nao_meshes](https://github.com/ros-naoqi/nao_meshes/issues/6), with NAO V6 urdf. 
+- [nao_meshes](https://github.com/ros-naoqi/nao_meshes/issues/6), with NAO [V6 urdf](http://doc.aldebaran.com/2-8/family/nao_technical/kinematics_naov6.html). 
  
