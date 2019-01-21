@@ -18,6 +18,10 @@ rosdep install --from-paths src --ignore-src -r -y --rosdistro melodic
 
 # After download is completed, build the packages
 catkin_make
+
+# (Optional) Overlay environment of this workspace in .bashrc
+PATH=$(pwd -P) && echo "source $PATH/devel/setup.bash" >> ~/.bashrc 
+source $HOME/.bashrc
 ``` 
 
 To launch simulation in Gazebo,
@@ -43,7 +47,7 @@ All joints are covered, comparing with information provided on [NAO specs](http:
 - Sonar Left/Right
 
 
-#### Modules
+### Modules
 Submodules
 - [nao_robot](https://github.com/ros-naoqi/nao_robot)
 - [nao_extras](https://github.com/ros-naoqi/nao_extras)
@@ -51,6 +55,6 @@ Submodules
 - [naoqi_bridge_msg](https://github.com/ros-naoqi/naoqi_bridge_msgs)
 - [nao_moveit_config](https://github.com/ros-naoqi/nao_moveit_config)
 
-Created packages
+Created modules
 - [nao_meshes](https://github.com/ros-naoqi/nao_meshes/issues/6), with NAO [V6 urdf](http://doc.aldebaran.com/2-8/family/nao_technical/kinematics_naov6.html). 
  
