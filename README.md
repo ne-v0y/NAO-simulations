@@ -1,13 +1,13 @@
 # NAO-simulations
 Package collections to run simulation for NAO robot V6. 
 
-#### System parameters
+### System parameters
 - Ubuntu 18.04 LTS
 - ROS Melodic
 
 For ROS Kinectic and earlier, please use [official release](http://wiki.ros.org/nao). 
 
-#### Getting started
+### Getting started
 Follow the [ROS Setup Guide](http://wiki.ros.org/melodic/Installation/Ubuntu) for installing Melodic. **Desktop-Full** version is highly recommended.   
 To set up this repository,
 ```bash
@@ -30,7 +30,7 @@ To launch motion planner in Rviz,
 roslaunch nao_moveit_config moveit_planner.launch
 ```
 
-#### Available controllers
+### Available controllers
 All joints are covered, comparing with information provided on [NAO specs](http://doc.aldebaran.com/2-8/family/nao_technical/lola/actuator_sensor_names.html).
 - Head
 - Left/Right Arm
