@@ -61,4 +61,4 @@ Created modules
 
 ### TODO
 - [ ] Create xacros for V6 model
-- [ ] Get NAOqi simulation to work
+- [ ] Compile Naoqi_driver?
