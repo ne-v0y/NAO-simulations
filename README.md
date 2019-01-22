@@ -8,8 +8,9 @@ Package collections to run Gazebo simulation for NAO robot V6.
 For ROS Kinectic and earlier, please use [official release](http://wiki.ros.org/nao). 
 
 ### Getting started
-Follow the [ROS Setup Guide](http://wiki.ros.org/melodic/Installation/Ubuntu) for installing Melodic. **Desktop-Full** version is highly recommended.   
-To set up this repository,
+1. Follow the [install guide](http://doc.aldebaran.com/2-5/dev/cpp/install_guide.html) to download and install NAOqi SDK. Make sure your worktree contains location you are going to clone this repository.
+2. Follow the [ROS Setup Guide](http://wiki.ros.org/melodic/Installation/Ubuntu) for installing Melodic. **Desktop-Full** version is highly recommended.   
+3. Set up this repository after cloning,
 ```bash
 sudo apt-get update
 cd NAO-simulation/catkin_ws
@@ -46,9 +47,6 @@ Find NAO specs [here](http://doc.aldebaran.com/2-8/family/nao_technical/lola/act
 - Camera top/bottom
 - Sonar Left/Right
 
-
-
-
 ### Modules
 Submodules
 - [nao_robot](https://github.com/ros-naoqi/nao_robot)
@@ -60,4 +58,7 @@ Submodules
 
 Created modules
 - [nao_meshes](https://github.com/ros-naoqi/nao_meshes/issues/6), with NAO [V6 urdf](http://doc.aldebaran.com/2-8/family/nao_technical/kinematics_naov6.html). 
- 
+
+### TODO
+- [ ] Create xacros for V6 model
+- [ ] Get NAOqi simulation to work

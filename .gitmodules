@@ -1,21 +1,21 @@
 [submodule "catkin_ws/src/nao_robot"]
 	path = catkin_ws/src/nao_robot
-	url = git@github.com:ros-naoqi/nao_robot.git
+	url = https://@github.com/ros-naoqi/nao_robot.git
 [submodule "catkin_ws/src/nao_extras"]
 	path = catkin_ws/src/nao_extras
-	url = git@github.com:ros-naoqi/nao_extras.git
+	url = https://@github.com/ros-naoqi/nao_extras.git
 [submodule "catkin_ws/src/nao_virtual"]
 	path = catkin_ws/src/nao_virtual
-	url = git@github.com:ros-naoqi/nao_virtual.git
+	url = https://github.com/ros-naoqi/nao_virtual.git
 [submodule "catkin_ws/src/naoqi_bridge_msgs"]
 	path = catkin_ws/src/naoqi_bridge_msgs
-	url = git@github.com:ros-naoqi/naoqi_bridge_msgs.git
+	url = https://github.com/ros-naoqi/naoqi_bridge_msgs.git
 [submodule "catkin_ws/src/nao_moveit_config"]
 	path = catkin_ws/src/nao_moveit_config
-	url = git@github.com:ros-naoqi/nao_moveit_config.git
+	url = https://github.com/ros-naoqi/nao_moveit_config.git
 [submodule "catkin_ws/src/naoqi_bridge"]
 	path = catkin_ws/src/naoqi_bridge
-	url = git@github.com:ros-naoqi/naoqi_bridge.git
+	url = https://github.com/ros-naoqi/naoqi_bridge.git
 [submodule "catkin_ws/src/naoqi_driver"]
 	path = catkin_ws/src/naoqi_driver
-	url = git@github.com:ros-naoqi/naoqi_driver.git
+	url = https://github.com/ros-naoqi/naoqi_driver.git
