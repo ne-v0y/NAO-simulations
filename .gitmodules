@@ -13,3 +13,9 @@
 [submodule "catkin_ws/src/nao_moveit_config"]
 	path = catkin_ws/src/nao_moveit_config
 	url = git@github.com:ros-naoqi/nao_moveit_config.git
+[submodule "catkin_ws/src/naoqi_bridge"]
+	path = catkin_ws/src/naoqi_bridge
+	url = git@github.com:ros-naoqi/naoqi_bridge.git
+[submodule "catkin_ws/src/naoqi_driver"]
+	path = catkin_ws/src/naoqi_driver
+	url = git@github.com:ros-naoqi/naoqi_driver.git

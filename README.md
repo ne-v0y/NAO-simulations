@@ -1,5 +1,5 @@
 # NAO-simulations
-Package collections to run simulation for NAO robot V6. 
+Package collections to run Gazebo simulation for NAO robot V6. 
 
 ### System parameters
 - Ubuntu 18.04 LTS
@@ -35,7 +35,7 @@ roslaunch nao_moveit_config moveit_planner.launch
 ```
 
 ### Available controllers
-All joints are covered, comparing with information provided on [NAO specs](http://doc.aldebaran.com/2-8/family/nao_technical/lola/actuator_sensor_names.html).
+Find NAO specs [here](http://doc.aldebaran.com/2-8/family/nao_technical/lola/actuator_sensor_names.html).
 - Head
 - Left/Right Arm
 - Left/Right Foot
@@ -47,13 +47,16 @@ All joints are covered, comparing with information provided on [NAO specs](http:
 - Sonar Left/Right
 
 
+
+
 ### Modules
 Submodules
 - [nao_robot](https://github.com/ros-naoqi/nao_robot)
 - [nao_extras](https://github.com/ros-naoqi/nao_extras)
 - [nao_virtual](https://github.com/ros-naoqi/nao_virtual)
-- [naoqi_bridge_msg](https://github.com/ros-naoqi/naoqi_bridge_msgs)
 - [nao_moveit_config](https://github.com/ros-naoqi/nao_moveit_config)
+- [naoqi_bridge](https://github.com/ros-naoqi/naoqi_bridge)
+- [naoqi_bridge_msg](https://github.com/ros-naoqi/naoqi_bridge_msgs)
 
 Created modules
 - [nao_meshes](https://github.com/ros-naoqi/nao_meshes/issues/6), with NAO [V6 urdf](http://doc.aldebaran.com/2-8/family/nao_technical/kinematics_naov6.html). 
